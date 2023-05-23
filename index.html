@@ -1,15 +1,132 @@
-<!doctype html>
-<html>
-  <head>
-    <title>My first webpage</title>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Sheet Music</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4de2b06d04.js" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="risorse/owl.carousel.min.css">
+    <link rel="stylesheet" href="risorse/owl.theme.default.min.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="risorse/owl.carousel.js"></script>
+
+   <script type="text/javascript">
+
+$( document ).ready(function() {
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
+
+});
+  
+  </script>
+</head>
+<body>
+   
+
     <style>
-      body {margin: 20%; font-family: sans-serif; font-size: 1.5em;}
-      h1 {letter-spacing: 0.05em;}
-      p {color: grey;}
+        body{
+            background-image:url(pcc/spartitoo.jpg);
+            background-size: cover;
+            text-align: center ;
+            
+        }
+
+        
     </style>
-  </head>
-  <body>
-    <h1>My first webpage</h1>
-    <p>I'm so smart</p>
-  </body>
+ 
+    <header>
+        <div class="menu">
+        <h1 class="pecorella"><img id="homeimg" src="pcc/PECORA.png" alt=""/>Sheet Music</i></h1>
+<nav>
+    <ul>
+        <li>
+            <a href="index.html">&nbspHOME&nbsp;</a>
+            <a href="generi.html">&nbspGENERI&nbsp</a>
+            <a href="strumenti.html">&nbspSTRUMENTI&nbsp</a>
+            <a href="documentazione.html">&nbspDOCUMENTAZIONE&nbsp</a>
+        </li>
+    </ul>
+</nav>
+</div>  
+    </header>
+
+       
+               
+<div class="scritte1">
+   <h2>Vuoi imparare a suonare?</h2>
+   <h2>Sei nel posto giusto!</h2>
+</div>
+
+<div class="scritte4">
+    <h2>Sheet Music nasce con l'idea di aiutare chi vuole cominciare ad approcciarsi ad uno strumento o chi semplicemente è in cerca di un'ispirazione per imparare una nuova canzone!
+    </h2>
+</div>
+
+<div class="scritte2">
+    <h2>Su Sheet Music puoi trovare spartiti di ogni tipo: dalla musica classica a quella rock, dal pianoforte alla chitarra!</h2>
+</div>
+
+<div class="scritte3">
+<h1>Diventa un musicista con Sheet Music!</h1>
+</div>
+       
+       
+<div class="scritte4">
+<h1>NEW ENTRY</h1> 
+</div>
+    <div class="owl-carousel owl-theme">
+            <div class="item" style="background-image: url(pcc/good\ riddance.jpeg); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+            <div class="item" style="background-image: url(pcc/hall\ of\ fame.jpeg); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+            <div class="item" style="background-image: url(pcc/happy.jpeg); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+            <div class="item" style="background-image: url(pcc/monkey.jpeg); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+            <div class="item" style="background-image: url(pcc/love\ story.jpeg); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+            <div class="item" style="background-image: url(pcc/sky.jpeg); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+        </div>
+        
+  
+
+<footer>
+
+   <nav>
+    <ul>
+        <li>
+            <a href="index.html">&nbspHOME&nbsp;</a>
+            <a href="generi.html">&nbspGENERI&nbsp</a>
+            <a href="strumenti.html">&nbspSTRUMENTI&nbsp</a>
+            <a href="documentazione.html">&nbspDOCUMENTAZIONE&nbsp</a>
+        </li>
+    </ul>
+</nav>
+
+
+    <p>Contatti:  <i class="fa-brands fa-instagram"></i>_Sheet_Music2</p>
+    <p>Mail: sheet.music@gmail.com</p>
+    
+
+
+<small> ©2023 Designed by Marta Galeotti</small>
+
+</footer>
+</body>
 </html>
