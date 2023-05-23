@@ -1,18 +1,23 @@
-.pecorella {
-    color:black;
-    font-family:'Sigmar', cursive;
-    text-align: center;
-    background-color: #e6e6fa ;
-    font-size: 150px;
-    margin: auto;
-    
+
+@media screen and(max-width:600px) {
    
-}
+    .pecorella {
+        color:black;
+        font-family:'Sigmar', cursive;
+        text-align: center;
+        background-color: #e6e6fa ;
+        font-size: 200px;
+        margin: auto;
+        
+       
+    }
+}   
 
 body{
     font-family:'Sigmar', cursive;
     font-size: 22px;
     text-align: justify;
+
 }
 
 header{
@@ -31,7 +36,7 @@ a{
     text-decoration: none;
 }
 
-.item{
+.item{ 
     width: 100%;
     height: 400px;
     margin: 100px;
@@ -58,57 +63,65 @@ header {
 
 .menu{
     background-color: #e6e6fa;
+    max-width: 100%;
     
    
 }
-
-h1, h2, h3{
-    text-align: center;
-    
+@media screen and(max-width:600px){
+    .scritte1{
+        margin: 200px;
+        font-size: 40px;
+        
+        
+        }  
 }
 
-.scritte1{
-margin: 200px;
-font-size: 40px;
 
 
-}
-
+@media screen and(max-width:600px){
 .scritte2{
 margin: 150px;
 font-size: x-large;
 }
+}
 
+
+
+
+
+@media screen and(max-width:600px){
 .scritte3{
     margin: 200px;
     font-size: 40px;
 }
+}
 
+
+
+
+
+@media screen and(max-width:600px){
 .scritte4{
     font-size: x-large;
    
   
 }
+}
 
 
-
+@media screen and(max-width:600px){
 .column{
-    float: left;
-    width: 25%;
+    float: none;
+    width: 50%;
+}
 }
 
-.row:after {
-content: "";
-display: table;
-clear: both;
-}
 
-@media screen {
-    .column {
-        width: 50%;
-    }
-}
-    
+
+
+
+
+
  
     
 
@@ -282,7 +295,23 @@ clear: both;
 
 }
 
+@media screen and (max-width:600px){
+    
+  header{
+    font-size: 30px;
+    line-height: 90px;
 
+    }
+
+}
+    
+
+@media screen and (max-width:600px){
+    .pecorella{
+        font-size: 100px;
+        line-height: 90px;
+    }
+}
 
 
 
